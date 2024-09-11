@@ -1,0 +1,16 @@
+{
+  "name": "nbb-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Merveille van Eck",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.20.0",
+    "moment": "^2.30.1",
+    "shell": "^0.11.0",
+    "shelljs": "^0.8.5"
+  },
+  "scripts": {
+    "dev": "PORT=3000 nbb nrepl-server"
+  }
+}
